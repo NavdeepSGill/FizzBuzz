@@ -11,7 +11,7 @@ public class Multiples {
 
         int nums = 0;
 
-        for (int i = 1; i <= range; i++) {
+        for (int i = 1; i < range; i++) {
 
             boolean divisibleByA = i % a == 0;
             boolean divisibleByB = i % b == 0;
